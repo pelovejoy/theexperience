@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>The Experience</title>
+    <meta name="description" content="The Experience Puzzle 1">
+    <meta name="author" content="Peter Lovejoy">
+    <link rel="stylesheet" type="text/css" href="../style/stylepuzzle.css"> 
+    <script language="javascript" type="text/javascript">
+function removeSpaces(string) {
+return string.split(' ').join('');
+}
+</script>
+ </head>
+    <body>
+    <header>
+    <img class="header1" src="../images/header1.jpg">
+    </header>
+    <img class="apple" src="../images/apple.jpg">  
+    <img class="pi" src="../images/pi.jpg">
+<input id="answer">
+
+<button class="button" type="button" onclick="myFunction()">Check Answer</button>
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+function myFunction() {
+    var x, text;
+    x = document.getElementById("answer").value;
+    if (x=="applepie") {
+        window.location = "../puzzle2/index.html";
+    } else {
+        text = "Input Incorrect";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+        </script>
+    </body>

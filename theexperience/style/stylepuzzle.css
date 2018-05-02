@@ -1,0 +1,51 @@
+.header1{
+display: block;
+width: 300px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.2px solid white;
+    background-color: black;
+    color:white;
+}
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: .7em;
+    background-color: black;
+    color: white;
+    border: 1.2px solid white;
+    
+}
+#demo{
+    display: block;
+    margin-left: 44.5em;
+    margin-right: auto
+}
+.apple{
+width:300px;
+height: auto;
+float: left;
+margin-left: 15em;
+}
+.pi{
+width:300px;
+height: auto;
+float: right;
+margin-right: 15em;
+}
+body {
+    background-color: black;
+}
+form {
+    color: floralwhite;
+}
+p { 
+    color:floralwhite;
+}
